@@ -1,0 +1,170 @@
+*{
+  margin: 0;
+  padding: 0;
+  color: #000;
+  font-size: 12px;
+}
+a{
+  text-decoration: none;
+}
+li{
+  list-style: none;
+}
+img{
+  vertical-align: center;
+}
+input,button{
+  outline: 0;
+}
+.flow_l{
+  float: left;
+}
+.flow_r{
+  float: right;
+}
+.dis_in_block{
+  display: inline-block;
+}
+
+/* //头部外包装 */
+.header{
+  width: 100%;
+  height: auto;
+}
+/* 上下分层包装 */
+.header .h_top,.header .h_bottom{
+  width: 100%;
+  height: 100%;
+  line-height: 69px;
+  height: 69px;
+  margin: 0 auto;
+  overflow: hidden;
+  background: url(../img/head_back.png) repeat 0 0 ; 
+  border-bottom: 1px solid #000;
+}
+.header .h_bottom{
+  line-height: 35px;
+  height: 35px;
+  background: #c20c0c; 
+  border-bottom: 1px solid #a40011;
+}
+/* 上下中心内容包装 */
+.wrap_t,.wrap_b{
+  width: 1100px;
+  height: 69px;
+  margin: 0 auto;
+}
+.wrap_b{
+  height: 35px;
+}
+
+
+.logo{
+  width: 177px;
+  height: 100%;
+  background : url(../img/topbar.png) no-repeat 0px 0px;
+}
+.nav_bar{
+  height: 100%;
+}
+.header li{
+  float: left;
+  height: 100%;
+  position: relative;
+}
+.nav_bar span,.nav_bar a{
+  display: block;
+  height: 100%;
+}
+.mouse,a[name=n_mouse]{
+  background: #000;
+}
+.nav_bar a span{
+  padding: 0 19px;
+  color: #ccc;
+}
+.nav_bar em{
+  position: absolute;
+  left: 45%;
+  bottom: -1px;
+  width: 26px;
+  height: 13px;
+  background-color: #000;
+  background: url(../img/topbar.png) no-repeat -225px 7px;
+  display: none;
+}
+div[name=search_plugin]{
+  position: relative;
+  width: 158px;
+  height: 100%;
+  margin-left: 85px;
+}
+div[name=search_plugin] input,div[name=creator_center] button{
+  width: 100%;
+  height: 32px;
+  border-radius: 32px;
+  border: none;
+  text-indent: 29px;
+}
+div[name=search_plugin] .search_icon{
+  cursor: pointer;
+  position: absolute;
+  left: 10px;
+  top: 29px;
+  width: 14px;
+  height: 14px;
+  background: url(../img/topbar.png) no-repeat -10px -108px;
+}
+
+div[name=creator_center]{
+  width: 90px;
+  height: 100%;
+  margin: 0 12px;
+}
+div[name=creator_center] button{
+  text-indent: 0px;
+  color: #ccc;
+  background-color: rgb(0,0,0,0);
+  border: 1px solid #4c4c4c;
+}
+
+div[name=user]{
+  width: 30px;
+  height: 100%;
+}
+div[name=user] p{
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  margin-top: 19px;
+  background: url(../img/user_img.jpg) no-repeat 0px 7px;
+}
+
+.nav_bottom{
+  height: 100%;
+}
+.nav_bottom{
+  margin-left: 176px;
+}
+.nav_bottom a{
+  margin: 0 17px;
+  border-radius: 20px;
+  color: #fff;
+}
+.nav_bottom a.on,.nav_bottom a[name=on]{
+  background-color: #9b0909 !important;
+}
+.nav_bottom a em{
+  height: 20px;
+  line-height: 20px;
+  font-style: normal;
+  color: #fff;
+  padding: 0 13px;
+}
+
+.container{
+  width: 1100px;
+  min-height: 200px;
+  margin: 0 auto;
+
+}

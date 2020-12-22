@@ -1,0 +1,22 @@
+[
+  {
+    "sss" : {
+      "username" : "sss",
+      "password" : 345,
+      "uclass" : 7,
+      "dsVal" : 79,
+      "atteVal" : 23,
+      "bvVal" : 134,
+      "head_p" : "http://p1.music.126.net/azMW8tHk1ToFczJLbxJF-A==/109951164960971673.jpg?param=80y80"
+    },
+    "ddd" : {
+      "username" : "ddd",
+      "password" : 345,
+      "uclass" : 9,
+        "dsVal" : 99,
+        "atteVal" : 7,
+        "bvVal" : 777
+    }
+  }
+  
+]

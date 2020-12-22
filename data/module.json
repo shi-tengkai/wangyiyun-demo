@@ -1,0 +1,215 @@
+[
+  { 
+    "mdl_msg" : {
+      "mdl_names" : [
+        "热门推荐",
+        "个性推荐",
+        "新碟上架",
+        "榜单"
+  
+      ],
+      "cnode_classes" : [
+        "hot_mc",
+        "indiv_mc",
+        "new_mc",
+        "top_mc"
+      ]
+    },
+    "hot_rmd" : {
+      "hrimgs" : [
+          "http://p1.music.126.net/1gr0H0OY29iorjNU1LHvSw==/109951165459032207.jpg?param=140y140",
+          "http://p1.music.126.net/KB09hrmjnTMpzzlruGDhBw==/109951165303094602.jpg?param=140y140",
+          "http://p1.music.126.net/BeIc-sv62xZPpVBS4DjE-g==/109951164607988464.jpg?param=140y140",
+          "http://p2.music.126.net/BW-jxvbHp8M3bEj4ea2PYg==/109951165287906887.jpg?param=140y140",
+          "http://p1.music.126.net/yYdUG5Pv6_-5PuIn5j1VKQ==/18790653720815486.jpg?param=140y140",
+          "http://p2.music.126.net/J1VtoGUw1letceqBxfQCcQ==/109951165458642108.jpg?param=140y140",
+          "http://p1.music.126.net/xjoGtl3hxnTQdldOsibxRA==/18593841139166266.jpg?param=140y140",
+          "http://p2.music.126.net/n_0UgnTwTiNy5GpDOstXnw==/18536666534662445.jpg?param=140y140"
+        ]
+        
+      ,
+      "hrvcs" : [
+          "346万",
+          "424万",
+          "554万",
+          "132万",
+          "44万",
+          "745万",
+          "331万",
+          "653万"
+        ]
+        
+      ,
+      "hrtits" : [
+          "万物皆有裂痕，生活的答案不止是完美",
+          "中文说唱|我想呼风唤雨用奇妙旋律",
+          "私人雷达 | 根据听歌记录为你打造",
+          "圣诞有你 梦幻惊喜",
+          "理想男友音，声控福利~（不定期更新）",
+          "仰望星空的猫",
+          "【♔私藏】一听就会中毒的英文歌",
+          "【猫猫脱口秀】单身这么多年你明白什么道理？"
+        ]
+        
+      
+    },
+
+    "indiv_rmd" : {
+      "irimgs" : [
+          "https://p2.music.126.net/BeIc-sv62xZPpVBS4DjE-g==/109951164607988464.jpg?param=140y140",
+          "https://p2.music.126.net/yYdUG5Pv6_-5PuIn5j1VKQ==/18790653720815486.jpg?param=140y140",
+          "https://p2.music.126.net/xjoGtl3hxnTQdldOsibxRA==/18593841139166266.jpg?param=140y140",
+          "https://s2.music.126.net/style/web2/img/date.png?dbae8e0710020a10ad390b7c2bf2c6e9"
+        ]
+        
+      ,
+      "irvcs" : [
+          "424万",
+          "44万",
+          "331万"
+        ]
+        
+      ,
+      "irtits" : [
+          "私人雷达 | 根据听歌记录为你打造",
+          "理想男友音，声控福利~（不定期更新）",
+          "【♔私藏】一听就会中毒的英文歌",
+          "每日歌曲推荐"
+        ]
+        
+      ,
+      "irtitdescs" : [
+          "猜你喜欢",
+          "根据你喜欢的单曲《月球风格爱情》推荐",
+          "根据你喜欢的单曲《Dealbreaker》推荐",
+          "根据你的口味生成，每天 6:00更新"
+        ]
+        
+      
+    },
+
+    "new_rmd" : {
+      "nrimgs" : [
+        [
+          "http://p3.music.126.net/teVK0N534C2mSYoaLr0uqw==/109951165397709994.jpg?param=100y100",
+          "http://p3.music.126.net/1XfoEJK6dQ2TEw55eXZLfA==/109951165418603915.jpg?param=100y100",
+          "http://p4.music.126.net/1xeJa4fE4N4YVM68FJ69lQ==/109951165403024844.jpg?param=100y100",
+          "http://p4.music.126.net/-eo6zwqZEdRCX_4NhFIWNw==/109951165392959577.jpg?param=100y100",
+          "http://p4.music.126.net/2ztAT9l4eOZeEUfcsqmBkA==/109951165393210183.jpg?param=100y100"
+        ],
+        [
+          "http://p4.music.126.net/g0hekI5j2amNI9vS44Wu1w==/109951165464881834.jpg?param=100y100",
+          "http://p4.music.126.net/ilhSwYuf1t3_vVu5eU5Pnw==/109951165434590354.jpg?param=100y100",
+          "http://p4.music.126.net/BjhwD_SAbGcfiaTAtW6p6Q==/109951165439426843.jpg?param=100y100",
+          "http://p3.music.126.net/G_pm0L1GZFmHNHsI5soqOQ==/109951165421146310.jpg?param=100y100",
+          "http://p4.music.126.net/zc3itmHcthBhK3LVXaAWxQ==/109951165424435214.jpg?param=100y100"
+        ],
+        [
+          "http://p3.music.126.net/teVK0N534C2mSYoaLr0uqw==/109951165397709994.jpg?param=100y100",
+          "http://p3.music.126.net/1XfoEJK6dQ2TEw55eXZLfA==/109951165418603915.jpg?param=100y100",
+          "http://p4.music.126.net/1xeJa4fE4N4YVM68FJ69lQ==/109951165403024844.jpg?param=100y100",
+          "http://p4.music.126.net/-eo6zwqZEdRCX_4NhFIWNw==/109951165392959577.jpg?param=100y100",
+          "http://p4.music.126.net/2ztAT9l4eOZeEUfcsqmBkA==/109951165393210183.jpg?param=100y100"
+        ]
+      ],
+      "album_name" : [
+        [
+          "幸存者 Drifter",
+          "AZORAland 我是哈哈哈",
+          "致明日的舞",
+          "REVISIT",
+          "Lonely"
+        ],
+        [
+          "Therefore I Am",
+          "不完美的人生指南",
+          "NANA II",
+          "Positions",
+          "你"
+        ],
+        [
+          "幸存者 Drifter",
+          "AZORAland 我是哈哈哈",
+          "致明日的舞",
+          "REVISIT",
+          "Lonely"
+        ]
+      ],
+
+      "singer_name" : [
+        [
+          "林俊杰",
+          "尤长靖",
+          "陈奕迅",
+          "张国荣",
+          "justin Bieber / sky yu"
+        ],
+        [
+          "Billio",
+          "陈绮贞 / 鬼裃 / 大圣",
+          "欧阳娜娜",
+          "Ariana Grande",
+          "黄子韬"
+        ],
+        [
+          "林俊杰",
+          "尤长靖",
+          "陈奕迅",
+          "张国荣",
+          "justin Bieber / sky yu"
+        ]
+      ]
+    },
+
+    "top_rmd" : {
+      "tr_tit" : [
+        "云音乐飙升榜",
+        "云音乐新歌榜",
+        "网易云原创歌曲榜"
+      ],
+      "tr_img" : [
+        "http://p3.music.126.net/DrRIg6CrgDfVLEph9SNh7w==/18696095720518497.jpg?param=100y100",
+        "http://p3.music.126.net/N2HO5xfYEqyQ8q6oxCw8IQ==/18713687906568048.jpg?param=100y100",
+        "http://p3.music.126.net/sBzD11nforcuh1jdLSgX7g==/18740076185638788.jpg?param=100y100"
+      ],
+      "tr_list" : [
+        [
+          "嘻哈帝国",
+          "我很好（吉他版）",
+          "每天的不理想",
+          "MAGO",
+          "世界上不存在的歌[2020耐腐蚀你方法对付]",
+          "窥光",
+          "你我之间",
+          "回不去",
+          "爱你没道理",
+          "夏夜最后的烟火"
+        ],
+        [
+          "经济舱（Live）",
+          "经济舱",
+          "我很好（吉他版）",
+          "会不会（正式版）",
+          "嘻哈帝国（Empire）",
+          "花剑",
+          "彩券",
+          "执迷不悟（DJ版）",
+          "唯一（prod gc）",
+          "在哪里都很好"
+        ],
+        [
+          "经济舱",
+          "Soft Storm",
+          "你别管",
+          "多可惜",
+          "假寐",
+          "我要陪你从午夜到清晨再到黄昏",
+          "建立一个只有我们的世界",
+          "沾花惹草",
+          "单方面决定",
+          "我们中的一个（Acoustic）"
+        ]
+      ]
+    }
+  }
+]

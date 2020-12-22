@@ -1,0 +1,743 @@
+html{
+   background: #f5f5f5;
+}
+/* 横幅广告区域 */
+.banner{
+  width: 100%;
+  height: 285px;
+  background-image: url('http://p1.music.126.net/JI1Om1PnEldfaxCLeqJZew==/109951165462386571.jpg?imageView&blur=40x20');
+  transition: background 2s;
+}
+.banner .wrap{
+  position: relative;
+  width: 982px;
+  height: 100%;
+  margin: 0 auto;
+}
+
+
+/* 轮播部分 */
+.ban_l{
+  position: relative;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  z-index: 10px;
+}
+.ban_l a{
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 285px;
+  overflow: hidden;
+  opacity: 0;
+  transition: opacity 2s;
+}
+.ban_l a:nth-child(1){
+  opacity: 1;
+}
+.ban_l a.now_a{
+  opacity: 1;
+}
+.ban_l a img{
+ width: 730px;
+ height: 285px;
+}
+
+div[com=bankey]{
+  cursor: pointer;
+  position: absolute;
+  top: 40%;
+  left: -49px;
+  width: 37px;
+  height: 63px;
+  line-height: 63px;
+  font-size: 29px;
+  color: #fff;
+  text-align: center;
+}
+div[com=bankey]:hover{
+  background: rgb(73, 73, 73,.4);
+}
+div[name=ban_rkey]{
+  left: auto;
+  right: -69px;
+}
+dl[name=ban_index]{
+  position: absolute;
+  bottom: 9%;
+  left: 25%;
+  height: 6px;
+  min-width: 150px;
+}
+dl[name=ban_index] dd{
+  float: left;
+  width: 6px;
+  height: 6px;
+  margin-right: 18px;
+  background: #fff;
+  border-radius: 50px;
+}
+dl[name=ban_index] dd:nth-child(1){
+  background: #f00;
+}
+dl[name=ban_index] dd.now_dot{
+  background: #f00;
+}
+
+
+/* 下载客户端 */
+.down_load{
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 252px;
+  height: 285px;
+  background: url(../img/download.png) no-repeat 0px 0px;
+  z-index: 20;
+}
+.down_load a{
+  position: absolute;
+  left: 19px;
+  bottom: 44px;
+  width: 216px;
+  height: 56px;
+}
+.down_load a[name=dl_btn]{
+  background: url(../img/download.png) no-repeat 0px -289px;
+}
+.down_load span[name=type_desc]{
+  position: absolute;
+  left: 5%;
+  bottom: 3%;
+  width: 100%;
+  height: 12px;
+  line-height: 12px;
+  color: #8d8d8d;
+  overflow: hidden;
+}
+
+
+/* 内容区域 */
+
+.content{
+  width: 982px;;
+  min-height: 99px;
+  margin: 0 auto;
+  background: #fff;
+
+}
+.content .wrap{
+  width: 982px;
+  min-height: 99px;
+  overflow: hidden;
+}
+
+.content .wrap .wrap_l{
+  width: 689px;
+  min-height: 99px;
+  padding: 0 20px;
+  border: 1px solid #ccc;
+}
+
+/* 模块包装 */
+.content .wrap .wrap_l div[name=module]{
+  width: 100%;
+  margin-top: 16px;
+}
+
+/* 模块头部 */
+.content .wrap .wrap_l  div.m_head{
+  width: 100%;
+  height: 37px;
+  line-height: 37px;
+  border-bottom: 2px solid #c10d0c;
+}
+.content .wrap .wrap_l div.m_head  div.h_icon1{
+  width: 14px;
+  height: 14px;
+  margin: 12px 10px 0 20px ;
+  background: url(../img/index.png) no-repeat -235px -164px;
+}
+.content .wrap .wrap_l div.m_head  div.h_icon2{
+  width: 12px;
+  height: 12px;
+  margin: 12px 14px 0 7px ;
+  background: url(../img/index.png) no-repeat 0px -240px;
+}
+.content .wrap .wrap_l div.m_head  a[name=m_title]{
+  font-size: 19px;
+  margin-right: 7px;
+}
+.content .wrap .wrap_l div.m_head  ul.tab{
+  height: 12px;
+  margin: 12px 0 0 20px;
+
+}
+.content .wrap .wrap_l div.m_head  ul.tab li{
+  float: left;
+  height: 12px;
+  line-height: 12px;
+  padding: 0 17px;
+  color: #666;
+}
+.content .wrap .wrap_l div.m_head ul.tab li+li{
+  border-left: 2px solid #ccc;
+}
+.content .wrap .wrap_l div.m_head  ul.tab li a{
+  color: #666;
+}
+.content .wrap .wrap_l div.m_head  div.more{
+  height: 12px;
+  color: #666;
+}
+
+/* 模块内容 */
+.content .wrap .wrap_l .m_content{
+  width: 100%;
+  margin: 20px 0 30px 0;
+  overflow: hidden;
+}
+.content .wrap .wrap_l .m_content li.com{
+  float: left;
+  width: 140px;
+  height: 234px;
+  padding: 0px 0 0 43px;
+}
+.content .wrap .wrap_l .m_content  li.com:nth-child(1),.content .wrap .wrap_l .m_content li.com:nth-child(5){
+  padding: 0px 0 0 0;
+
+}
+.content .wrap .wrap_l .m_content li.com div.m_cover{
+  position: relative;
+  width: 140px;
+  height: 140px;
+}
+.content .wrap .wrap_l .m_content li.com div.m_cover a.shade{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 10;
+}
+
+/* 歌单黑色阴影部分 */
+.content .wrap .wrap_l .m_content li.com div.m_cover .bottom{
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 27px;
+  line-height: 27px;
+  color: #ccc;
+  background: rgb(0, 0, 0,.5);
+  z-index: 20;
+}
+.content .wrap .wrap_l .m_content li.com div.m_cover .bottom .v_counts{
+  color: #ccc;
+}
+.content .wrap .wrap_l .m_content li.com div.m_cover .bottom .icon_headset{
+  width: 14px;
+  height: 12px;
+  margin: 9px 5px 0 9px;
+  background: url(../img/iconall.png) no-repeat 0px -24px ;
+}
+.content .wrap .wrap_l .m_content li.com div.m_cover .bottom .icon_play{
+  width: 16px;
+  height: 16px;
+  margin: 5px 4px 0 0;
+
+  background: url(../img/iconall.png) no-repeat 0px 0px ;
+}
+
+
+/* 模块音乐歌单标题 */
+.content .wrap .wrap_l .m_content li.com  p.p_tit,.content .wrap .wrap_l .m_content li.dateIndiv_li  p.p_tit{
+  font-size: 14px;
+  max-width: 140px;
+  line-height: 20px;
+  margin-top: 7px;
+}
+.content .wrap .wrap_l .m_content li.com  p.p_desc,.content .wrap .wrap_l .m_content li.dateIndiv_li  p.p_desc{
+  font-size: 12px;
+  max-width: 140px;
+  line-height: 20px;
+  color: #999;
+}
+
+
+
+/* 每日个性推荐独立css */
+.content .wrap .wrap_l .m_content li.dateIndiv_li a.dateIndiv_a{
+  position: relative;
+  width: 100%;
+  height: 140px;
+}
+.content .wrap .wrap_l .m_content li.dateIndiv_li a.dateIndiv_a div.week{
+  width: 140px;
+  height: 33px;
+  line-height: 33px;
+  font-size: 19px;
+  color: #fff;
+  text-align: center;
+}
+.content .wrap .wrap_l .m_content li.dateIndiv_li a.dateIndiv_a div.date{
+  width: 140px;
+  height: 106px;
+  line-height: 106px;
+  font-size: 49px;
+  color: #262626;
+  text-align: center;
+}
+.content .wrap .wrap_l .m_content li.dateIndiv_li a.dateIndiv_a div.shadow{
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 140px;
+  height: 106px;
+}
+
+
+/* 新碟上架内容 */
+.content .wrap .wrap_l div[name=module] .new_mc{
+  position: relative;
+  width: 100%;
+  height: 186px;
+  background: #f5f5f5;
+  border: 1px solid #d3d3d3;
+  overflow: hidden;
+}
+.content .wrap .wrap_l div[name=module] .new_mc ul.nm_wrap{
+  position: absolute;
+  top: 29px;
+  left: 0px;
+  width: 2070px;
+  height: 157px;
+}
+.content .wrap .wrap_l div[name=module] .new_mc li[name=nm_item]{
+  float: left;
+  width: 640px;
+  height: 157px;
+  margin: 0 25px 0;
+}
+.content .wrap .wrap_l div[name=module] .new_mc li[name=nm_item] div[name=ni_item]{
+  float: left;
+  width: 118px;
+  height: 100%;
+  margin-left: 9px;
+  overflow: hidden;
+}
+.content .wrap .wrap_l div[name=module] .new_mc li[name=nm_item] div[name=ni_item] a[name=msk]{
+  position: relative;
+  width: 100%;
+  height: 100px;
+  background: url(../img/coverall.png) no-repeat 0px -571px;
+}
+.content .wrap .wrap_l div[name=module] .new_mc li[name=nm_item] div[name=ni_item] a[name=msk] span{
+  display: none;
+  position: absolute;
+  bottom: 9%;
+  right: 25%;
+  width: 24px;
+  height: 24px;
+  background: url(../img/iconall.png) no-repeat -43px -23px;
+}
+.content .wrap .wrap_l div[name=module] .new_mc li[name=nm_item] div[name=ni_item] .album_name,.content .wrap .wrap_l div[name=module] .new_mc li[name=nm_item] div[name=ni_item] .singer_name{
+  width: 100%;
+  line-height: 18px;
+  display: inline-block;
+  white-space: nowrap; 
+  width: 100%; 
+  overflow: hidden;
+  text-overflow:ellipsis;
+}
+.content .wrap .wrap_l div[name=module] .new_mc li[name=nm_item] div[name=ni_item] .singer_name{
+  color: #666;
+}
+
+/* 新碟上架，轮播图按钮 */
+.content .wrap .wrap_l div[name=module] .new_mc div.nm_key{
+  position: absolute;
+  top: 40%;
+  left:9px;
+  line-height: 19px;
+  color: #898989;
+  font-size: 19px;
+  font-weight: bold;
+  cursor: pointer;
+  z-index: 99;
+}
+.content .wrap .wrap_l div[name=module] .new_mc div[name=nm_rkey]{
+  left: auto;
+  right: 9px;
+}
+
+
+.content .wrap .wrap_l div[name=module] .top_mc {
+  width: 100%;
+  height: 494px;
+  overflow: hidden;
+}
+
+.content .wrap .wrap_l div[name=module] .top_mc li[name=tm_item]{
+  float: left;
+  width: 228px;
+  height: 100%;
+  background: #f5f5f5;
+  border: 1px solid #d3d3d3;
+}
+.content .wrap .wrap_l div[name=module] .top_mc li[name=tm_item]:nth-child(2){
+  border-left: none;
+  border-right: none;
+}
+
+.content .wrap .wrap_l div[name=module] .top_mc li[name=tm_item] ul{
+  width: 100%;
+  height: 100%;
+}
+.content .wrap .wrap_l div[name=module] .top_mc li[name=tm_item] ul li{
+  width: 100%;
+  height: 31px;
+  line-height: 31px;
+  display: inline-block;
+  white-space: nowrap; 
+  width: 100%; 
+  overflow: hidden;
+  text-overflow:ellipsis;
+}
+.content .wrap .wrap_l div[name=module] .top_mc li[name=tm_item] ul li a{
+  display: inline-block;
+  max-width: 90px;
+  white-space: nowrap; 
+  width: 100%; 
+  overflow: hidden;
+  text-overflow:ellipsis;
+}
+.content .wrap .wrap_l div[name=module] .top_mc li[name=tm_item] ul li span.ti_icon{
+  float: right;
+  display: inline-block;
+  width: 17px;
+  height: 17px;
+  margin: 7px 7px 0 0 ;
+}
+.content .wrap .wrap_l div[name=module] .top_mc li[name=tm_item] ul li span[name=show]{
+  display: none;
+}
+.content .wrap .wrap_l div[name=module] .top_mc li[name=tm_item] ul li span.ls_com{
+  padding: 0 16px 0 29px;
+}
+.content .wrap .wrap_l div[name=module] .top_mc li[name=tm_item] ul li a.tm_more{
+  float: right;
+  margin-right: 30px;
+}
+.content .wrap .wrap_l div[name=module] .top_mc li[name=tm_item] ul li[name=ti_head]{
+  width: 100%;
+  height: 79px;
+  padding: 19px 0;
+
+}
+.content .wrap .wrap_l div[name=module] .top_mc li[name=tm_item] ul li[name=ti_head] a[name=ti_img]{
+  position: relative;
+  float: left;
+  width: 80px;
+  height: 80px;
+  margin: 0 10px 0 19px;
+  box-shadow : 0px 1px 4px;
+}
+.content .wrap .wrap_l div[name=module] .top_mc li[name=tm_item]  a[name=ti_img] img{
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 80px;
+  height: 80px;
+}
+.content .wrap .wrap_l div[name=module] .top_mc li[name=tm_item]  div[name=tit]{
+  position: relative;
+  float: left;
+  width: 119px;
+  height: 100%;
+}
+.content .wrap .wrap_l div[name=module] .top_mc li[name=tm_item]  div[name=tit] a{
+  display: block;
+  width: 100%;
+  height: 12px;
+  line-height: 12px;
+  margin: 10px 0 15px;
+}
+.content .wrap .wrap_l div[name=module] .top_mc li[name=tm_item]  div[name=tit] span.ti_icon1{
+  float: left;
+  display: block;
+  width: 22px;
+  height: 22px;
+  margin-right: 9px;
+  background: url(../img/iconall.png) no-repeat -43px -25px;
+}
+.content .wrap .wrap_l div[name=module] .top_mc li[name=tm_item]  div[name=tit] span.ti_icon2{
+  float: left;
+  display: block;
+  width: 20px;
+  height: 20px;
+  background: url(../img/index.png) no-repeat -300px -207px;
+}
+
+/* 内容右区域 */
+
+.content .wrap .wrap_r{
+  width: 250px;
+  height: 100%;
+  border: 1px solid #ccc;
+  border-left: none;
+}
+
+/* 个人信息版 */
+.content .wrap .wrap_r .per_msg{
+  width: 100%;
+  height: 184px;
+  background: #fbfbfb;
+  border-bottom: 2px solid #ccc;
+}
+.content .wrap .wrap_r .per_msg .pmtop{
+  width: 100%;
+  height: 84px;
+  padding-top: 20px;
+}
+.content .wrap .wrap_r .per_msg .pmtop .pmh_img{
+  float: left;
+  width: 80px;
+  height: 80px;
+  margin: 0 18px 0 20px;
+  border: 1px solid #dadada;
+}
+.content .wrap .wrap_r .per_msg .pmtop .pm_r{
+  float: left;
+  width: 126px;
+  height: 100%;
+}
+.content .wrap .wrap_r .per_msg .pmtop .pmh_r .pm_username,.content .wrap .wrap_r .per_msg .pmtop .pmh_r .pm_class{
+  width: 100%;
+  height: 17px;
+}
+.content .wrap .wrap_r .per_msg .pmtop .pmh_r .pm_class{
+  margin: 7px 0 15px 0;
+}
+.content .wrap .wrap_r .per_msg .pmtop .pmh_r .pm_class span{
+  display: inline-block;
+  height: 100%;
+  padding: 0 4px;
+  color: #ccc;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+}
+.content .wrap .wrap_r .per_msg .pmtop .pmh_r .pm_sign_in{
+  height: 28px;
+  width: 98px;
+  padding: 0 4px;
+  color: #fff;
+  text-align: center;
+  background: #418fd9;
+  border: 1px solid #3984ce;
+  border-radius: 3px;
+}
+.content .wrap .wrap_r .per_msg .pmbottom{
+  width: 100%;
+  height: 40px;
+  margin-top: 22px;
+}
+.content .wrap .wrap_r .per_msg .pmbottom li{
+  float: left;
+  width: 33%;
+  height: 100%;
+}
+.content .wrap .wrap_r .per_msg .pmbottom li+li{
+  border-left: 1px solid #777;
+}
+.content .wrap .wrap_r .per_msg .pmbottom .ldt{
+  width: 100%;
+  height: 15px;
+  line-height: 15px;
+  text-align: center;
+  font-size: 15px;
+  color: #777;
+  margin: 2px 0 8px;
+}
+.content .wrap .wrap_r .per_msg .pmbottom .ldb{
+  width: 100%;
+  height: 12px;
+  line-height: 12px;
+  text-align: center;
+  color: #777;
+}
+
+
+
+.content .wrap .wrap_r .rdl_list{
+  padding: 9px 20px 10px;
+  min-height: 99px;
+}
+.content .wrap .wrap_r .rdl_list  .rdl_head{
+  width: 210px;
+  height: 29px;
+  line-height: 29px;
+  margin-bottom: 20px;
+  border-bottom: 1px solid #777;
+}
+.content .wrap .wrap_r .rdl_list .rdl_head a{
+  float: right;
+}
+
+/* 入驻歌手 */
+.content .wrap .wrap_r .enter_singers dd{
+  width: 100%;
+  height: 60px;
+  border: 1px solid #e9e9e9;
+  background: #fafafa;
+  margin-bottom: 14px;
+}
+.content .wrap .wrap_r .enter_singers dd .es_img{
+  float: left;
+  width: 60px;
+  height: 60px;
+  margin-right: 13px;
+}
+.content .wrap .wrap_r .enter_singers dd .es_name{
+  float: left;
+  width: 135px;
+  height: 14px;
+  line-height: 14px;
+  font-size: 14px;
+  color: #333;
+  margin: 12px 0 16px;
+}
+.content .wrap .wrap_r .enter_singers dd .es_msg{
+  width: 135px;
+  height: 12px;
+  line-height: 12px;
+  font-size: 12px;
+  color: #666;  
+  display: inline-block;
+  white-space: nowrap; 
+  overflow: hidden;
+  text-overflow:ellipsis;
+}
+.content .wrap .wrap_r .enter_singers .apply_mcn{
+  width: 100%;
+  height: 28px;
+  line-height: 10px;
+  border: 1px solid #c4c4c4;
+  background: #fafafa;
+  border-radius: 3px;
+  margin-bottom: 14px;
+  font-weight: bold;
+}
+
+
+/* 热门主播 */
+.content .wrap .wrap_r .hot_anchor dd{
+  width: 100%;
+  height: 40px;
+  margin-bottom: 10px;
+}
+.content .wrap .wrap_r .hot_anchor dd .ha_img{
+  float: left;
+  width: 40px;
+  height: 40px;
+  margin-right: 10px;
+}
+.content .wrap .wrap_r .hot_anchor dd .ha_name{
+  float: left;
+  width: 160px;
+  height: 12px;
+  line-height: 12px;
+  color: #333;
+  margin: 4px 0 10px;
+}.content .wrap .wrap_r .hot_anchor dd .ha_msg{
+  width: 160px;
+  height: 12px;
+  line-height: 12px;
+  font-size: 12px;
+  color: #666;
+  display: inline-block;
+  white-space: nowrap; 
+  overflow: hidden;
+  text-overflow:ellipsis;
+}
+
+
+
+.foot{
+  width: 100%;
+  background: #f2f2f2;
+  border-top: 1px solid #d3d3d3;
+  overflow: hidden;
+}
+.foot .wrap{
+  width: 982px;
+  min-height: 99px;
+  margin: 0 auto;
+}
+.foot .wrap .wrap_l{
+  width: 554px;
+  min-height: 99px;
+}
+.foot .wrap .wrap_l .p1{
+  width: 100%;
+  height: 12px;
+  color: #999;
+  padding: 20px 0 12px;
+}
+.foot .wrap .wrap_l .p1 li{
+  float: left;
+}
+.foot .wrap .wrap_l .p1 li+li{
+  border-left: 1px solid #999;
+}
+.foot .wrap .wrap_l .p1 li a{
+  color: #999;
+  padding: 0 11px;
+}
+.foot .wrap .wrap_l .p3{
+  margin: 12px 0;
+}
+.foot .wrap .wrap_l .p4{
+  padding-bottom: 66px;
+}
+
+.foot .wrap .wrap_r{
+  width : 426px;
+  height: 100%;
+}
+.foot .wrap .wrap_r ul{
+  width: 100%;
+  min-height: 9px;
+  margin-top: 33px;
+}
+.foot .wrap .wrap_r ul li{
+  float: left;
+  height: 60px;
+  margin-right: 20px;
+}
+.foot .wrap .wrap_r ul li div.f_icon{
+  width: 50px;
+  height: 45px;
+  margin: 0 auto 5px;
+}
+.foot .wrap .wrap_r ul li div.fi_tit{
+  height: 12px;
+  line-height: 12px;
+  text-align: center;
+}
+
+.return_to_top{
+  cursor: pointer;
+  position: fixed;
+  bottom: 20%;
+  right: 20%;
+  width: 45px;
+  height: 40px;
+  text-align: center;
+  border: 1px solid #d4d4d4;
+  background: #f2f2f2;
+  display: none;
+}
